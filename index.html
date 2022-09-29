@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="icon" href="favicon.png" type="image/png">
+
+    <title>Games</title>
+
+    <link href="./src/style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="favicon.png">
+
+        <div id="header-box">
+            <a class="header-menu" href="">Destaques</a>
+            <a class="header-menu" href="">Lançamentos</a>
+            <a class="header-menu" href="">Publishers</a>
+            <a class="header-menu" href="">Publishers</a>
+
+
+            <div class="caixa-pesquisa">
+                <input type="text" class="texto-pesquisa">
+                <button>Pesquisar</button>
+            </div>
+        </div>
+    </header>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 1"
+                class="active indicator" aria-current="true"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <div class="flex-carousel-item">
+                    <iframe width="640" height="480" src="https://www.youtube.com/embed/uMjn_GDFrUA"
+                        title="YouTube vi   deo player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <div class="main-text">
+                        <h3 class="titulo">Apex Legends</h3>
+                        <span class="texto">
+                            <strong>Sobre:</strong>  Apex Legends é um jogo eletrônico free-to-play do gênero battle royale desenvolvido pela Respawn Entertainment e publicado pela Electronic Arts
+                        </span>
+                        <strong class="subtitulo">
+                            <span>Publisher: Eletronic Arts</span> -
+                            <span>Lançamento: May, 2020</span>
+                        </strong>
+                        <p class="texto">Plataforms: Nintendo Switch, playstation 5 , Xbox One e PC</p>
+                        <p class="texto">Genero: Ação, Adventure e RPG</p>
+                        <p class="texto">Avaliação: 98%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="flex-carousel-item">
+                    <iframe width="640" height="480" src="https://www.youtube.com/embed/b9hVuerqMVo"
+                        title="YouTube vi   deo player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                    <div class="main-text">
+                        <h3 class="titulo">Valorant</h3>
+                        <span class="texto">
+                            <strong>Sobre: </strong> Valorant é um jogo eletrônico multijogador gratuito para jogar de tiro em primeira pessoa desenvolvido e publicado pela Riot Games
+                        </span>
+                        <strong class="subtitulo">
+                            <span>Publisher: Riot Games</span> -
+                            <span>Lançamento: May, 2020</span>
+                        </strong>
+                        <p class="texto">Plataforma: PC</p>
+                        <p class="texto">Genero: FPS</p>
+                        <p class="texto">Avaliação: 98%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="flex-carousel-item">
+                    <iframe width="640" height="480" src="https://www.youtube.com/embed/o3V-GvvzjE4"
+                        title="YouTube vi   deo player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                    <div class="main-text">
+                        <h3 class="titulo">Fifa 23</h3>
+                        <span class="texto">
+                            <strong>Sobre: </strong>FIFA 23 será o próximo jogo eletrônico de simulação de futebol em desenvolvimento pela Electronic Arts.
+                        </span>
+                        <strong class="subtitulo">
+                            <span>Publisher: Eletronic Arts</span> -
+                            <span>Lançamento: September, 2022</span>
+                        </strong>
+                        <p class="texto">Publishers: Nintendo Switch, playstation 5 , Xbox One e PC</p>
+                        <p class="texto">Genero: Ação, Adventure e RPG</p>
+                        <p class="texto">Avaliação: 98%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="box-releases">
+        <div>
+            <div class="header-release">
+                <h1>Lançamentos</h1>
+                <div>
+                    <div class="header-release">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Ordem:
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="">Action</a></li>
+                                <li><a class="dropdown-item" href="">Another action</a></li>
+                                <li><a class="dropdown-item" href="">Something else here</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Gênero:
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="">Action</a></li>
+                                <li><a class="dropdown-item" href="">Another action</a></li>
+                                <li><a class="dropdown-item" href="">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="releases">
+                <div class="release">
+                    <h3>League of Legends</h3>
+                    <iframe width="320" height="240" src="https://www.youtube.com/embed/cXZqfuJ9Zps"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+                <div class="release">
+                    <h3>Valorant</h3>
+                    <iframe width="320" height="240" src="https://www.youtube.com/embed/b9hVuerqMVo"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+                <div class="release">
+                    <h3>Counter-Strike GO</h3>
+                    <iframe width="320" height="240" src="https://www.youtube.com/embed/tN93xXfews4"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+                <div class="release">
+                    <h3>Fortnite</h3>
+                    <iframe width="320" height="240" src="https://www.youtube.com/embed/_4roR7V9fpE"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+                <div class="release">
+                    <h3>Paladins</h3>
+                    <iframe width="320" height="240" src="https://www.youtube.com/embed/dEwEC2MKgeQ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+                <div class="release">
+                    <h3>Call of Duty</h3>
+                    <iframe width="320" height="240" src="https://www.youtube.com/embed/r72GP1PIZa0"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="release">
+                    <h3>Battlefield 2042</h3>
+                    <iframe width="320" height="240" src="https://www.youtube.com/embed/ASzOzrB-a9E"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <button id="button-releases">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+                carregar mais lançamentos
+            </button>
+        </div>
+    </div>
+
+
+    <div id="publisher-container">
+
+        <div id="grid-plataform">
+            <h1 id="plataform-title">Plataforms</h1>
+            <div id="box-plataform">
+                <div class="plataform">
+                    <h3>Riot Games</h3>
+                    <img class="plataform-image"
+                        src="https://www.riotgames.com/darkroom/800/87521fcaeca5867538ae7f46ac152740:2f8144e17957078916e41d2410c111c3/002-rg-2021-full-lockup-offwhite.jpg"
+                        alt="" />
+                    <div class="plataform-text">
+                        <strong>
+                            Principais Jogos
+                        </strong>
+                        <ul>
+                            <li>League of Legends</li>
+                            <li>Valorant</li>
+                            <li>TFT</li>
+                        </ul>
+                    </div>
+                    <a class="more-details">
+                        Mais detalhes...
+                    </a>
+                </div>
+                <div class="plataform">
+                    <h3>Publisher 2</h3>
+                    <img class="plataform-image"
+                        src="https://cdn2.unrealengine.com/Unreal+Engine%2Feg-logo-filled-1255x1272-0eb9d144a0f981d1cbaaa1eb957de7a3207b31bb.png"
+                        alt="" />
+                    <div class="plataform-text">
+                        <strong>
+                            Principais Jogos
+                        </strong>
+                        <ul>
+                            <li>Fall Guys</li>
+                            <li>Rocket League</li>
+                            <li>Fortnite</li>
+                        </ul>
+                    </div>
+                    <a class="more-details">
+                        Mais detalhes...
+                    </a>
+                </div>
+                <div class="plataform">
+                    <h3>Publisher 3</h3>
+                    <img class="plataform-image"
+                        src="https://www.internetmatters.org/wp-content/uploads/2018/02/Steam-logo-2-600x314.png"
+                        alt="" />
+                    <div class="plataform-text">
+                        <strong>
+                            Principais Jogos
+                        </strong>
+                        <ul>
+                            <li>Counter Strike</li>
+                            <li>Half Life</li>
+                            <li>Portal</li>
+                        </ul>
+                        <a class="more-details">
+                            Mais detalhes...
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <button id="button-releases">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+                carregar mais publishers
+            </button>
+        </div>
+    </div>
+    <div id="plataform-container">
+
+        <div id="grid-plataform">
+            <h1 id="plataform-title">Publishers</h1>
+            <div id="box-plataform">
+                <div class="plataform">
+                    <h3>Rockstar Games</h3>
+                    <img class="plataform-image"
+                        src="data:image/png;base64,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"
+                        alt="" />
+                    <div class="plataform-text">
+                        <strong>
+                            Principais Jogos
+                        </strong>
+                        <ul>
+                            <li>GTA V</li>
+                            <li>Red Dead Redemption</li>
+                            <li>GTA 4</li>
+                        </ul>
+                    </div>
+                    <a class="more-details">
+                        Mais detalhes...
+                    </a>
+                </div>
+                <div class="plataform">
+                    <h3>Riot Games</h3>
+                    <img class="plataform-image"
+                        src="https://www.riotgames.com/darkroom/800/87521fcaeca5867538ae7f46ac152740:2f8144e17957078916e41d2410c111c3/002-rg-2021-full-lockup-offwhite.jpg"
+                        alt="" />
+                    <div class="plataform-text">
+                        <strong>
+                            Principais Jogos
+                        </strong>
+                        <ul>
+                            <li>League of Legends</li>
+                            <li>Valorant</li>
+                            <li>TFT</li>
+                        </ul>
+                    </div>
+                    <a class="more-details">
+                        Mais detalhes...
+                    </a>
+                </div>
+                <div class="plataform">
+                    <h3>Ubisoft</h3>
+                    <img class="plataform-image"
+                        src="data:image/jpeg;base64,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"
+                        alt="" />
+                    <div class="plataform-text">
+                        <strong>
+                            Principais Jogos
+                        </strong>
+                        <ul>
+                            <li>Assassin's Creed</li>
+                            <li>Far Cry</li>
+                            <li>For Honor</li>
+                        </ul>
+                        <a class="more-details">
+                            Mais detalhes...
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <button id="button-releases">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+                carregar mais plataformas
+            </button>
+        </div>
+    </div>
+
+    <div>
+        <div id="about">
+            <div id="about-text">
+                <h1>Sobre</h1>
+                <p>
+                    Sou um estudante de engenharia de software e esse é o meu primeiro trabalho de DIW.   
+                </p>
+            </div>
+            <div id="about-info">
+                <h1>Editorial</h1>
+                <div class="info">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-user">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg> <strong>Redação: </strong>
+                    <p> João Teixeira</p>
+                </div>
+                <div class="info">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-user">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    <strong>Pesquisa: </strong>
+                    <p> João Teixeira</p>
+                </div>
+                <div class="info">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-user">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    <strong>Gerente Geral: </strong>
+                    <p> João Teixeira</p>
+                </div>
+                <h3>Redes sociais</h3>
+                <div class="social-media-icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-instagram">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-facebook">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-twitter">
+                        <path
+                            d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                        </path>
+                    </svg>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright 2022 - Disciplina de Desenvolvimento de Interface Web - 
+            <strong>ICEI PUC MINAS </strong>
+        </p>
+        <img id="logo" src="favicon.png">
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
