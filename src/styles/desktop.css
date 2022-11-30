@@ -24,12 +24,22 @@
         padding-left: 32px;
     }
 
+    input{
+        color: black;
+    }
+
     button {
-        background-color: #333333;
+        margin-left: 8px;
+        background-color: #303030;
         height: 35px;
         width: 88px;
         border-radius: 10px;
         border: none;
+
+    }
+    button:hover{
+        transition: 0.5s;
+        background-color: #404040;
     }
 
     img {
@@ -323,7 +333,7 @@
     }
 
     .game-details{
-        width: 100%;
+        width: 90%;
         margin-left: 80px;
         display: flex;
         align-items: flex-start;
