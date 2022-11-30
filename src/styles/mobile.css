@@ -304,4 +304,23 @@
 
         padding: 48px 0px;
     }
+
+    .publisher {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .publisher:first-child {
+        margin-left: 0px;
+    }
+
+    .publisher-image {
+        width: 320px;
+        height: 160px;
+    }
+
+    #publisher-title {
+        display: flex;
+        justify-content: flex-start;
+    }
 }
