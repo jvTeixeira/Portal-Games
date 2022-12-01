@@ -180,10 +180,11 @@
 
     .search-wrapper {
         margin: 24px 0 0 0;
-        width: 80%;
+        width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-content: space-evenly;
+        justify-items: center;
     }
 
     .option {
