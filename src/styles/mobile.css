@@ -31,6 +31,7 @@
         width: 88px;
         border-radius: 10px;
         border: none;
+        margin-left: 8px;
     }
 
     img {
@@ -321,7 +322,16 @@
 
     }
 
+    .search-wrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     footer {
+        overflow: hidden;
+
         background-color: #333333;
 
         height: 80px;
