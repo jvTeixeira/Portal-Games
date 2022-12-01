@@ -21,8 +21,8 @@
         background-color: #0D0D0D;
 
 
-        padding-right: 32px;
-        padding-left: 32px;
+        padding-right: 8px;
+        padding-left: 8px;
     }
 
     button {
@@ -40,6 +40,11 @@
 
     #header-box {
         display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #header-box > a {
+        display: none;
         align-items: center;
     }
 
@@ -79,6 +84,25 @@
         border: none;
     }
 
+    .details{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .details > img{
+        height: 200px;
+        width: auto;
+    }
+    .game-details{
+        padding: 0 8px 0 8px;
+        display: flex;
+        flex-direction: column;
+    }
+
     .header-menu:hover {
         color: #d9d9d9;
     }
@@ -94,6 +118,10 @@
         width: 160px;
         border-radius: 4px;
         margin-right: 24px;
+    }
+
+    input{
+        color: #000;
     }
 
     select:last-child {
@@ -302,7 +330,10 @@
         justify-content: space-between;
         align-items: center;
 
-        padding: 48px 0px;
+        padding: 12px;
+    }
+    footer > img{
+        display: none;
     }
 
     .publisher {
