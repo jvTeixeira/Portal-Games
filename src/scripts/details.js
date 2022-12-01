@@ -22,4 +22,14 @@ const showDetails = async () => {
     wrapperDetails.appendChild(gameContainer);
 }
 
+const search = () => {
+    let nomeGame = document.querySelector('.texto-pesquisa').value;
+    let url = `/pesquisa.html?name=${nomeGame}`;
+    console.log("click")
+    window.location.replace(url);
+}
+
+const searchButton = document.getElementById("search-button");
+searchButton.addEventListener("click", search);
+
 showDetails();

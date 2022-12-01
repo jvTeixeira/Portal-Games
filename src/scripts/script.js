@@ -76,24 +76,15 @@ const getPlataforms = async () => {
     })
 }
 
-const search = async () => {
-    let nomeGame = document.querySelector('.caixa-pesquisa').value;
-
-
-    const response = await fetch("https://api.rawg.io/api/games?key=bd5a173ddf44438494169173b40b4a73")
-    const games = await response.json()
-
-
-    games.results.forEach((game) => {
-        if (nomeGame == game.name) {
-            let url = "pesquisa.html?"+game.slug;
-            window.open(url, '_self');
-        }
-    })
-
-
-
+const search = () => {
+    let nomeGame = document.querySelector('.texto-pesquisa').value;
+    let url = `/pesquisa.html?name=${nomeGame}`;
+    console.log("click")
+    window.location.replace(url);
 }
+
+const searchButton = document.getElementById("search-button");
+searchButton.addEventListener("click", search);
 
 getPlataforms();
 getPublishers();
